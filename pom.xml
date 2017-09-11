@@ -28,7 +28,6 @@
         <dependency>
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu-common</artifactId>
-            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
