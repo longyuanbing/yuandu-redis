@@ -20,39 +20,39 @@ import redis.clients.jedis.*;
 import java.lang.reflect.Method;
 
 @Configuration
-@PropertySource(value = "classpath:/redis.properties")
+//@PropertySource(value = "classpath:/redis.properties")
 @EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
 
     private static final Logger logger = LoggerFactory.getLogger(RedisConfig.class);
 
-    @Value("${spring.redis.host}")
+    @Value("${redis.host}")
     private String host;
 
-    @Value("${spring.redis.port}")
+    @Value("${redis.port}")
     private int port;
 
-    @Value("${spring.redis.timeout}")
+    @Value("${redis.timeout}")
     private int timeout;
 
-    @Value("${spring.redis.pool.maxIdle}")
+    @Value("${redis.pool.maxIdle}")
     private int maxIdle;
-    @Value("${spring.redis.pool.minIdle}")
+    @Value("${redis.pool.minIdle}")
     private int minIdle;
 
-    @Value("${spring.redis.pool.maxTotal}")
+    @Value("${redis.pool.maxTotal}")
     private int maxTotal;
 
-    @Value("${spring.redis.pool.maxWaitMillis}")
+    @Value("${redis.pool.maxWaitMillis}")
     private int maxWaitMillis;
 
-    @Value("${spring.redis.pool.testOnBorrow}")
+    @Value("${redis.pool.testOnBorrow}")
     private Boolean testOnBorrow;
 
-    @Value("${spring.redis.pool.testOnReturn}")
+    @Value("${redis.pool.testOnReturn}")
     private Boolean testOnReturn;
 
-    @Value("${spring.redis.pool.testWhileIdle}")
+    @Value("${redis.pool.testWhileIdle}")
     private Boolean testWhileIdle;
 
 	/*
