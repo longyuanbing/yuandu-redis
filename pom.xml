@@ -22,10 +22,6 @@
             <artifactId>spring-boot-starter-redis</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu-common</artifactId>
         </dependency>
