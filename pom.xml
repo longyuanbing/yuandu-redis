@@ -24,6 +24,7 @@
         <dependency>
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu-common</artifactId>
+            <optional>true</optional>
         </dependency>
 
     </dependencies>
