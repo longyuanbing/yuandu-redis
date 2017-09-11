@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis.repository;
+package com.yuandu.redis.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

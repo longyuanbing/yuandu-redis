@@ -1,6 +1,6 @@
-package com.yuandu.yuandu_redis.config;
+package com.yuandu.redis.config;
 
-import com.yuandu.yuandu_redis.serializer.RedisObjectSerializer;
+import com.yuandu.redis.serializer.RedisObjectSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

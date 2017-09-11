@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis.repository;
+package com.yuandu.redis.repository;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

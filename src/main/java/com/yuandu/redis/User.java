@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis;//package com.yuandu.redis;
+package com.yuandu.redis;//package com.yuandu.redis;
 //
 //import java.io.Serializable;
 //import java.util.Date;

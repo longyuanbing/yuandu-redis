@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis.serializer;
+package com.yuandu.redis.serializer;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.serializer.support.DeserializingConverter;

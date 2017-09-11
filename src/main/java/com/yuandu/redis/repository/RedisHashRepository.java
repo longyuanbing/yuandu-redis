@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis.repository;
+package com.yuandu.redis.repository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

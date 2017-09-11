@@ -1,4 +1,4 @@
-package com.yuandu.yuandu_redis;//package com.yuandu.redis;
+package com.yuandu.redis;//package com.yuandu.redis;
 //
 //import com.yuandu.redis.repository.RedisListRepository;
 //import com.yuandu.utils.date.DateUtils;
