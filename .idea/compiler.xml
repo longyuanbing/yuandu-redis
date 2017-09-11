@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yuandu-redis" />
         <module name="yuandu_redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="yuandu-redis" target="1.8" />
       <module name="yuandu_redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
